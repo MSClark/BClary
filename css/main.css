@@ -24,6 +24,15 @@ body {
 
 }
 
+.projects{
+  
+}
+
+.preview{
+  height: 300px;
+  width: 635px;
+}
+
 .footer{
   text-align: center;
   color: white;
