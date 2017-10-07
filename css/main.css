@@ -8,6 +8,18 @@ body {
   }
 }
 
+#about{
+  
+  }
+  
+#projects{
+  
+}
+
+#contact{
+  
+}
+
 .parallax{
   padding: 50px auto;
   width: 100%;
@@ -19,13 +31,6 @@ body {
 
 .navbar{
   background: url("http://www.w3newbie.com/wp-content/uploads/parallax-2.jpg");
-}
-.about{
-
-}
-
-.projects{
-  
 }
 
 .preview{
