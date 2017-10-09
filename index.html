@@ -164,28 +164,16 @@
     </section>
 
     <script>
-        function initMap() {
-          var uluru = {lat: 41.878, lng: -87.629};
-          var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 10,
-            center: uluru
-          });
-          var marker = new google.maps.Marker({
-            position: uluru,
-            map: map
-          });
-        }
+        
       </script>
 
-      <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvxcO-yV6Ezjr7JDFw8PQV3iKjGurrJFM&callback=initMap">
-      </script>
+      
 
 
     <!-- Footer -->
     <footer class="navbar">
       <div class="container">
-        <p class="footer">Copyright &copy; Matthew Clark 2017</p>
+        <p class="footer">Copyright &copy; Matthew S Clark 2017</p>
       </div>
     </footer>
 
@@ -193,7 +181,10 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="scripts.js"></script>
+
+    <!-- Custom and google api JavaScript -->
+    <script src="js/scripts.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvxcO-yV6Ezjr7JDFw8PQV3iKjGurrJFM&callback=initMap"></script>
 
   </body>
 
