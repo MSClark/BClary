@@ -70,5 +70,9 @@
 
 })(jQuery); // End of use strict
 
+// A360 widget
+var adskViewerWidget = adskViewerWidget();
+adskViewerWidget.init('#adskViewerWidget');
+
 
 
